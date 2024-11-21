@@ -1,7 +1,8 @@
 ## hand recognition
+- create your venv. run 'python -m venv your_venv_name' on terminal
 - your_venv_name\Scripts\activate to activate venv
 - install mediapipe opencv. Run on terminal: pip install mediapipe opencv-python
-- run main.py script
+- run hand_recognize.py script
 
 ## Output
 - The webcam feed will display the detected hand landmarks.
