@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Week Planner</title>
+</head>
+<body>
+    <h1>Week Planner</h1>
+    <a href="/add/">Add Task</a>
+    <ul>
+        {% for task in tasks %}
+            <li>{{ task.day }} - {{ task.time }}: {{ task.title }} - {{ task.description }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

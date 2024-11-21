@@ -1,0 +1,48 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+week_planer_env/
+
+# Django specific
+db.sqlite3
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# Local settings
+local_settings.py
+
+# Media and static files
+/media/
+/staticfiles/
+
+# Testing and debugging
+*.coverage
+.tox/
+.pytest_cache/
+.coverage.*
+
+# VSCode specific
+.vscode/
+
+# IDE files
+.idea/
+*.swp
+*.swo
+*.swn
+*~
+
+# Environment variables and secrets
+.env
+
+# Migrations (if you want to track them, remove this)
+planner/migrations/
+
+# others 
+access.md
