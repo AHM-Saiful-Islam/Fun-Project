@@ -1,5 +1,5 @@
 ## hand recognition
-- hand_recognition_env\Scripts\activate to activate venv
+- your_venv_name\Scripts\activate to activate venv
 - install mediapipe opencv. Run on terminal: pip install mediapipe opencv-python
 - run main.py script
 
