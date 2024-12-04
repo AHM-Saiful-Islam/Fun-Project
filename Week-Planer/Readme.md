@@ -22,7 +22,7 @@ A simple yet efficient **Week Planner** web application built using Django. The 
 
 - **Task List View**  
   Displays tasks for the week, including their day, time, title, and completion status.  
-  ![Task List Screenshot]([link-to-screenshot1](https://github.com/AHM-Saiful-Islam/Fun-Project/blob/main/Week-Planer/Screenshots/Add%20Task%20Page.png))
+  ![Task List Screenshot](https://github.com/AHM-Saiful-Islam/Fun-Project/blob/main/Week-Planer/Screenshots/Add%20Task%20Page.png)
 
 - **Add Task Page**  
   Allows users to input new tasks with all required details.  
