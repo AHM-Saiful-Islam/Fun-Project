@@ -9,7 +9,7 @@
     <ul>
         {% for task in tasks %}
             <li>
-                {{ task.day }} - {{ task.time }}: {{ task.title }} - {{ task.description }}
+                {{ task.date }} - {{ task.day }} - {{ task.time }}: {{ task.title }} - {{ task.description }} - 
                 {% if task.completed %}
                     <strong>[Completed]</strong>
                 {% else %}
