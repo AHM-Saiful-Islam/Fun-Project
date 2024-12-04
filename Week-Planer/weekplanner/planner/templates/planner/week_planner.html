@@ -8,7 +8,14 @@
     <a href="/add/">Add Task</a>
     <ul>
         {% for task in tasks %}
-            <li>{{ task.day }} - {{ task.time }}: {{ task.title }} - {{ task.description }}</li>
+            <li>
+                {{ task.day }} - {{ task.time }}: {{ task.title }} - {{ task.description }}
+                {% if task.completed %}
+                    <strong>[Completed]</strong>
+                {% else %}
+                    <a href="{% url 'complete_task' task.id %}">Mark as Completed</a>
+                {% endif %}
+            </li>
         {% endfor %}
     </ul>
 </body>
