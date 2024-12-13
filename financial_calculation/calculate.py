@@ -32,3 +32,4 @@ for q in range(1, quarters + 1):
 df = pd.DataFrame(data)
 df
 print(df)
+df.to_csv("financial_calculation_results.csv", index=False)
